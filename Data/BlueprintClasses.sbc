@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlueprintClasses>
+		<Class>
+			<Id>                   
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>SiftGravel</SubtypeId>
+			</Id>
+			<DisplayName>Sift Gravel</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+			<HighlightIcon>Textures\GUI\Icons\ingot\gravel_ingot.dds</HighlightIcon>
+			<IconFocus>Textures\GUI\Icons\ingot\gravel_ingot.dds</IconFocus>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class> 
+	
+	</BlueprintClasses>
+	<BlueprintClassEntries>
+		<Entry Class="SiftGravel" BlueprintSubtypeId="GravelToOre" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/GravelSifter" />
+	</BlueprintClassEntries>
+</Definitions>

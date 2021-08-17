@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<CubeBlocks>
+	<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+		<Id>
+			<TypeId>Refinery</TypeId>
+			<SubtypeId>GravelSifter</SubtypeId>
+		</Id>
+		<DisplayName>Gravel Sifter</DisplayName>
+		<Description>This machine filters the processed gravel once more to extract as much trace materials as it can. This process wastes the remainder of the gravel though.</Description>
+		<Icon>Textures\GUI\Icons\Cubes\Assembler.dds</Icon>
+		<CubeSize>Large</CubeSize>
+		<BlockTopology>TriangleMesh</BlockTopology>
+		<Size x="1" y="1" z="2" />
+		<ModelOffset x="0" y="0" z="0" />
+		<Model>Models\Cubes\Large\GravelSifter.mwm</Model>
+		<Components>
+			<Component Subtype="SteelPlate" Count="30" />
+			<Component Subtype="Construction" Count="25" />
+			<Component Subtype="MetalGrid" Count="8" />
+			<Component Subtype="LargeTube" Count="4" />
+			<Component Subtype="Motor" Count="8" />
+			<Component Subtype="SteelPlate" Count="20" />
+			<Component Subtype="PowerCell" Count="10" />
+			<Component Subtype="Computer" Count="100" />
+			<Component Subtype="SteelPlate" Count="130" />
+		</Components>
+		<CriticalComponent Subtype="Computer" Index="0" />
+		<MountPoints>
+			<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+			<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+			<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="2" Default="true" />
+			<MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="2" />
+			<MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="1" />
+			<MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="1" />
+		</MountPoints>
+		<BuildProgressModels>
+			<Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\GravelSifterConstruction_1.mwm" />
+			<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GravelSifterConstruction_2.mwm" />
+			<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\GravelSifterConstruction_3.mwm" />
+			<Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\GravelSifterConstruction_4.mwm" />
+			<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GravelSifterConstruction_5.mwm" />
+		</BuildProgressModels>
+		<BuildTimeSeconds>20</BuildTimeSeconds>
+		<InventoryMaxVolume>6</InventoryMaxVolume>
+		<InventorySize>
+			<X>2</X>
+			<Y>2</Y>
+			<Z>2</Z>
+		</InventorySize>
+		<StandbyPowerConsumption>0.01</StandbyPowerConsumption>
+		<OperationalPowerConsumption>1</OperationalPowerConsumption>
+		<BlueprintClasses>
+			<Class>SiftGravel</Class>
+		</BlueprintClasses>
+		<RefineSpeed>1</RefineSpeed>
+		<MaterialEfficiency>1</MaterialEfficiency>
+		<DamageEffectId>212</DamageEffectId>
+		<PCU>50</PCU>
+		<IsAirTight>true</IsAirTight>
+	</Definition>
+</CubeBlocks>
+</Definitions>

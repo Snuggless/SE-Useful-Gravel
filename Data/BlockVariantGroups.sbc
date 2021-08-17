@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroup>
+		<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GravelSifterGroup" />
+		<Icon>Textures\GUI\Icons\Cubes\Assembler.dds</Icon>
+		<DisplayName>Gravel Sifter</DisplayName>
+		<Description>This machine filters the processed gravel once more to extract as much trace materials as it can. This process wastes the remainder of the gravel though.</Description>
+		<Blocks>
+			<Block Type="MyObjectBuilder_Refinery" Subtype="GravelSifter" />
+		</Blocks>
+	</BlockVariantGroup>
+</Definitions>

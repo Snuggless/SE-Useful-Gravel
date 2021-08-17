@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Blueprints>
+	<Blueprint>
+		<Id>
+			<TypeId>BlueprintDefinition</TypeId>
+			<SubtypeId>GravelToOre</SubtypeId>
+		</Id>
+		<DisplayName>Sift Gravel into Ores</DisplayName>
+		<Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+		<Prerequisites>
+			<Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="0.020" TypeId="Ore" SubtypeId="Magnesium" />
+			<Item Amount="0.0004" TypeId="Ore" SubtypeId="Platinum" />
+			<Item Amount="5000.0002" TypeId="Ore" SubtypeId="Uranium" />
+		</Results>      
+		<BaseProductionTimeInSeconds>0.4</BaseProductionTimeInSeconds>
+	</Blueprint>
+</Blueprints>
+</Definitions>
