@@ -6,4 +6,4 @@ This is a mod for **Space Engineers**. It adds a new block called 'Gravel Sifter
 |--|--|
 | Magnesium | 0.020 |
 | Platinum | 0.0004 |
-| Magnesium | 0.0002 |
+| Uranium | 0.0002 |
