@@ -12,9 +12,11 @@
 			<Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
 		</Prerequisites>
 		<Results>
-			<Item Amount="0.020" TypeId="Ore" SubtypeId="Magnesium" />
-			<Item Amount="0.0004" TypeId="Ore" SubtypeId="Platinum" />
-			<Item Amount="0.0002" TypeId="Ore" SubtypeId="Uranium" />
+			<Item Amount="0.5" TypeId="Ore" SubtypeId="Magnesium" />
+			<Item Amount="0.1" TypeId="Ore" SubtypeId="Platinum" />
+			<Item Amount="0.1" TypeId="Ore" SubtypeId="Uranium" />
+			<Item Amount="0.3" TypeId="Ore" SubtypeId="Silver" />
+			<Item Amount="0.2" TypeId="Ore" SubtypeId="Gold" />
 		</Results>      
 		<BaseProductionTimeInSeconds>0.4</BaseProductionTimeInSeconds>
 	</Blueprint>
