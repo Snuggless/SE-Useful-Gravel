@@ -42,14 +42,14 @@
 			<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GravelSifterConstruction_5.mwm" />
 		</BuildProgressModels>
 		<BuildTimeSeconds>20</BuildTimeSeconds>
-		<InventoryMaxVolume>6</InventoryMaxVolume>
+		<InventoryMaxVolume>12</InventoryMaxVolume>
 		<InventorySize>
 			<X>2</X>
 			<Y>2</Y>
 			<Z>2</Z>
 		</InventorySize>
-		<StandbyPowerConsumption>0.01</StandbyPowerConsumption>
-		<OperationalPowerConsumption>1</OperationalPowerConsumption>
+		<StandbyPowerConsumption>0.0001</StandbyPowerConsumption>
+		<OperationalPowerConsumption>0.01</OperationalPowerConsumption>
 		<BlueprintClasses>
 			<Class>SiftGravel</Class>
 		</BlueprintClasses>
